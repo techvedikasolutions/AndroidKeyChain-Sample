@@ -247,6 +247,7 @@ public class KeyHelper{
             SharedPreferences.Editor edit = pref.edit();
             edit.putString(PUBLIC_IV, generatedIVstr);
             edit.apply();
+            
         }
     }
 
